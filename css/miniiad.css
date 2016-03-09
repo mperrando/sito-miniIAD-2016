@@ -1,9 +1,9 @@
-.share_buttons {
+#share_buttons {
 	position: fixed;
 	top: 100px;
 	left: 30px;
 	background-color: rgba(255, 255, 255, 0.6);
-	border-radius: 10px;
+	border-radius: 5px;
 	padding: 5px;
 }
 
@@ -249,10 +249,8 @@ td.prtd_lightning {
 }
 
 @media print {
-	.share_buttons {
-		position: absolute;
-		top: -300px;
-		left: -100px;
+	#share_buttons {
+    display: none;
 	}
 
 	table {
@@ -309,3 +307,11 @@ td.prtd_lightning {
   line-height: 70px;
 }
 /* Fine Counter */
+@media (max-width: 1100px) {
+  #twitter_timeline_container {
+    display: none;
+  }
+  #share_buttons {
+    display: none;
+  }
+}

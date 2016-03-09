@@ -29,10 +29,6 @@
     <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
         <script type="text/javascript">
-            function isMobile() {
-                return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-            }
-
             function getParameterByName(name) {
                 name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
                 var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"), results = regex.exec(location.search);
@@ -115,7 +111,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-md-offset-3">
-                            <div class="share_buttons">
+                            <div id="share_buttons">
                                 <div class="share_button">
                                     <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://agileday.it/mini/2016/savona/" data-text="L'Italian Agile Day diventa #miniiad a Genova, 17 maggio. Apertura iscizioni 22 aprile ore 10." data-via="xpugge" data-lang="it">Tweet</a>
                                     <script>
@@ -808,14 +804,6 @@
         <script src="js/jquery.mb-comingsoon.min.js"></script>
         <script type="text/javascript">
             $('#timer').mbComingsoon({ expiryDate: new Date(2016, 3, 16, 9, 00), speed:100 });
-        </script>
-        <script type="text/javascript">
-            if (isMobile()) {
-                $('#headerimg').css('height', 120);
-                $('#twitter_timeline_container').css('position', '').css('margin', '30px auto 0 auto');
-                $('.share_buttons').removeClass('share_buttons');
-                $('.share_button').css('float', 'left');
-            }
         </script>
     </body>
 </html>
