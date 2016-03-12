@@ -16,7 +16,7 @@ var map = new google.maps.Map(document.getElementById('map'), myOptions);
 var marker = new google.maps.Marker({
       position: loc,
       map: map,
-      url: 'https://www.google.it/maps/dir/Campus+Savona,+Via+Magliotto,+2,+17100+Savona+SV/@44.2992301,8.4516016,15z/data=!4m7!4m6!1m5!1m1!1s0x12d2e23925cd3dbd:0xed60a043820247bb!2m2!1d8.4516016!2d44.2992301'
+      url: 'https://www.google.it/maps/place/Campus+Savona/@44.2992339,8.4494129,17z/data=!3m1!4b1!4m2!3m1!1s0x12d2e23925cd3dbd:0xed60a043820247bb'
    });
 
 google.maps.event.addListener(marker, 'click', function() {
