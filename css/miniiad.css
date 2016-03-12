@@ -326,6 +326,7 @@ td.prtd_lightning {
     left: 0;
     bottom: 0;
     min-width:100%;
+    z-index: 10000;
 }
  
 #cookie-law p { 
