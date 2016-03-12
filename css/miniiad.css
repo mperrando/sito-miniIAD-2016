@@ -316,3 +316,25 @@ td.prtd_lightning {
     display: none;
   }
 }
+
+/* Cookie law */
+
+#cookie-law { 
+    max-width:940px;
+    background: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    min-width:100%;
+}
+ 
+#cookie-law p { 
+    padding:10px 100px; 
+    font-size:1.2em; 
+    font-weight:bold; 
+    text-align:center; 
+    color: white;
+    margin:0;
+}
+
+/* FINE Cookie law */
