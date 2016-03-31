@@ -10,7 +10,7 @@ function createDiv(){
     var bodytag = document.getElementsByTagName('body')[0];
     var div = document.createElement('div');
     div.setAttribute('id','cookie-law');
-    var text = "Utilizziamo i cookie per essere sicuri che tu possa avere la migliore esperienza sul nostro sito. Se continui ad utilizzare questo sito noi assumiamo che tu ne sia felice.";
+    var text = "Utilizziamo i cookie per essere sicuri che tu possa avere la migliore esperienza sul nostro sito. Se continui ad utilizzare questo sito noi assumiamo che tu ne sia felice";
     div.innerHTML = '<p>' + text + '. <a class="close-cookie-banner" href="javascript:void(0);" onclick="removeMe();"><span>Ok</span></a></p>';
     // Be advised the Close Banner 'X' link requires jQuery
 
