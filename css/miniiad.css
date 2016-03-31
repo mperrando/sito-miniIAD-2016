@@ -104,6 +104,11 @@ td.prtd_hh {
 	_background: rgb(226, 204, 102);
 	background: rgba(0, 170, 212, 0.25);
 }
+.prtd_ws {
+	width: 550px;
+	_background: rgb(226, 204, 102);
+	background: rgba(182, 215, 168, 0.25);
+}
 .prtd_sessione.alt {
 	background: rgba(0, 170, 212, 0.15);
 }
