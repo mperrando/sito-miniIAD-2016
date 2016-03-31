@@ -136,7 +136,6 @@ td.prtd_lightning {
 
 .session_title {
 	font-weight: bold;
-	padding: 0 10%;
 }
 
 .session_speaker {
@@ -218,7 +217,8 @@ td.prtd_lightning {
 }
 
 .abstract-link {
-	color: black;
+  font-size: 70%;
+  text-transform: uppercase;
 }
 
 .abstracts {
