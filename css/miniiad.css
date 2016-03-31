@@ -242,6 +242,10 @@ td.prtd_lightning {
 	background: rgba(0, 170, 212, 0.25);
 }
 
+.abstract-content.ws {
+	background: rgba(182, 215, 168, 0.25);
+}
+
 .abstract-content.alt {
 	background: rgba(0, 170, 212, 0.15);
 }
