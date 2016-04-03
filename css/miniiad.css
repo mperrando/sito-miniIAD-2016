@@ -8,6 +8,10 @@
 	padding: 5px;
 }
 
+dl {
+    font-size: 18px
+}
+
 .share_button {
 	margin: 5px;
 }
